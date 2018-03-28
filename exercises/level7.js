@@ -3,3 +3,13 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+
+function finalFunction(num) {
+    var array = [];
+
+    for(i = 0; i < num; i++) {
+        array.push("gravy");
+    }
+
+    return array;
+}
